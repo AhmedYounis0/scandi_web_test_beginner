@@ -1,0 +1,15 @@
+{
+    "name": "younis/assignment",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "younis",
+            "email": "correiaftw@gmail.com"
+        }
+    ],
+    "require": {}
+}

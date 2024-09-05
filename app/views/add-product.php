@@ -6,7 +6,7 @@
 
 <div class="container p-5">
     <div class="main">
-        <form id="productForm" action="/product/store" method="post">
+        <form id="product_form" action="/product/store" method="post">
             <div id="mandatory" class="mandatory-text p-4">* Please note: all fields are MANDATORY</div>
 
             <div class="mb-3 w-50 p-1">
@@ -51,7 +51,7 @@
 
 <script>
     $(document).ready(function() {
-        $('#productForm').on('submit', function(event) {
+        $('#product_form').on('submit', function(event) {
             event.preventDefault(); // Prevent the form from submitting
 
             // Clear previous errors
@@ -99,11 +99,13 @@
 
             if (selectedOption === 'DVD') {
                 const dvd_label = document.createElement('label');
+                dvd_label.setAttribute('for', 'size');
                 dvd_label.textContent = "Size (MB):";
 
                 const dvd = document.createElement('input');
                 dvd.type = 'text';
                 dvd.name = 'size';
+                dvd.id   = 'size';
                 dvd.placeholder = 'Enter the size...';
                 dvd.className = 'form-control mb-3';
 
@@ -112,29 +114,35 @@
 
             } else if (selectedOption === 'Furniture') {
                 const height_label = document.createElement('label');
+                height_label.setAttribute('for', 'height');
                 height_label.textContent = 'Height (CM):';
 
                 const height = document.createElement('input');
                 height.type = 'text';
                 height.name = 'height';
+                height.id   = 'height';
                 height.placeholder = 'Enter the height...';
                 height.className = 'form-control mb-3';
 
                 const width_label = document.createElement('label');
+                width_label.setAttribute('for', 'width');
                 width_label.textContent = 'Width (CM):';
 
                 const width = document.createElement('input');
                 width.type = 'text';
                 width.name = 'width';
+                width.id   = 'width';
                 width.placeholder = 'Enter the width...';
                 width.className = 'form-control mb-3';
 
                 const length_label = document.createElement('label');
+                length_label.setAttribute('for', 'length');
                 length_label.textContent = 'Length (CM):';
 
                 const length = document.createElement('input');
                 length.type = 'text';
                 length.name = 'length';
+                length.id   = 'length';
                 length.placeholder = 'Enter the length...';
                 length.className = 'form-control mb-3';
 
@@ -147,11 +155,13 @@
 
             } else if (selectedOption === 'Book') {
                 const weight_label = document.createElement('label');
+                weight_label.setAttribute('for', 'weight');
                 weight_label.textContent = 'Weight (KG):';
 
                 const weight = document.createElement('input');
                 weight.type = 'text';
                 weight.name = 'weight';
+                weight.id   = 'weight';
                 weight.placeholder = 'Enter the weight...';
                 weight.className = 'form-control mb-3';
 

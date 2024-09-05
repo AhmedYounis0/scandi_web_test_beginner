@@ -48,10 +48,8 @@
             }
         });
 
-        // Handle the form submission
-        $('#delete-form').on('submit', function(e) {
-            e.preventDefault(); // Prevent the default form submission
-
+        // Handle the delete button click
+        $('#delete-product-btn').on('click', function() {
             // Collect all selected checkboxes
             var selectedProducts = [];
             $('.delete-checkbox:checked').each(function() {
@@ -66,7 +64,7 @@
 
             // Send the selected product SKUs via AJAX to the server
             $.ajax({
-                url: '/product/deleteProducts/'+selectedProducts, // Update with your actual delete route
+                url: '/product/deleteProducts', // Update with your actual delete route
                 method: 'POST',
                 data: {
                     product_selected: selectedProducts,
@@ -80,7 +78,6 @@
             });
         });
     });
-
     let generated_li = document.querySelector(".generated_li");
     let selector = document.getElementById('type_switcher');
 

@@ -4,9 +4,9 @@
         <span class="d-flex">
             <?php if ($title == 'Products') : ?>
             <a href="/product/create" class="btn btn-dark m-2" type="submit">Add</a>
-            <form method="post" id="delete-form">
+<!--            <form method="post" id="delete-form">-->
                 <button class="btn btn-dark m-2" id="delete-product-btn" type="submit">Mass Delete</button>
-            </form>
+<!--            </form>-->
             <?php endif; ?>
         </span>
     </div>

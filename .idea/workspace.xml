@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f875cb4-65a2-48cb-8d3a-9b7ffd8022c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/add-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/add-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layout/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layout/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layout/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layout/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layout/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layout/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/assignment&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/xampp/htdocs/assignment",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\assignment\app\views" />
@@ -81,7 +84,8 @@
       <workItem from="1724887934893" duration="13118000" />
       <workItem from="1724974226864" duration="60124000" />
       <workItem from="1725395811964" duration="56000" />
-      <workItem from="1725395869319" duration="2081000" />
+      <workItem from="1725395869319" duration="4576000" />
+      <workItem from="1725564686185" duration="10237000" />
     </task>
     <servers />
   </component>

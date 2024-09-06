@@ -17,11 +17,12 @@ class ProductController extends Controller
     public function index()
     {
         $products = $this->productModel->getProducts();
-        $this->view('products', ['products' => $products,'title'=>'Products']);
+        $this->view('products', ['products' => $products,'title'=>'Product List']);
     }
 
     public function create()
     {
+        $currentPage = 'Product Add';
         $this->view('add-product',['title'=>'Add Product']);
     }
 

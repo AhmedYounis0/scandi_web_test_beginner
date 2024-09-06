@@ -17,4 +17,11 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <!--    <script src="/public/assets/js/app.js"></script>-->
     <title>Junior Developer Task - <?= $title ?></title>
+    <style>
+        #size_field,
+        #weight_field,
+        #furniture_fields {
+            display: none;
+        }
+    </style>
 </head>
